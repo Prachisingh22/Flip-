@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  padding: 99px;
+  background-color: rgba(226, 198, 43, 0.496);
+}
+h1{
+  font-size: 80px;
+  margin-top: 3;
+}
+h2 {
+  margin-bottom: 2px;
+}
+
+div {
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 25px;
+  font-size: 16px;
+  background-color: #6a6e72;
+  color: #fff;
+  border: 4px solid black;
+  cursor: pointer;
+}
+.uploaded-photo {
+  width: 300px;
+  height: 200px;
+  margin-top: 10px;
+}
+
+
+.photo-uploader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photos-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.uploaded-photo {
+  width: 300px;
+  height: 200px;
+  margin-top: 10px;
+}
+
+.big-photo {
+  width: 600px;
+  height: 400px;
+}
